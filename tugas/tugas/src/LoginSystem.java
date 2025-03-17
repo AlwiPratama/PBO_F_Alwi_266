@@ -81,7 +81,7 @@ public class LoginSystem {
                 String inputPassword = input.nextLine();
 
                 if (dataAdmin.validateLogin(inputUsername, inputPassword)) {
-                    System.out.println("Login berhasil Sebagai Admin1");
+                    System.out.println("Login berhasil Sebagai Admin!");
                     return;
                 }else{
                     System.out.println("Login gagal, silahkan coba lagi");
@@ -99,7 +99,7 @@ public class LoginSystem {
                     System.out.println("NIM: " + dataMahasiswa.getNim());
                     return;
                 }else{
-                    System.out.println("Login gagal, silahkan coba lagi");
+                    System.out.println("Login gagal, silahkan coba lagi!");
                 }
             }
         }
