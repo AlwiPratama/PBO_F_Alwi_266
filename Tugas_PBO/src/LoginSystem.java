@@ -110,7 +110,7 @@ public class LoginSystem {
                     System.out.println("Login gagal, silakan coba lagi!");
                 }
             } else if (userType == 2) {
-                Mahasiswa mahasiswa = new Mahasiswa("Alwi Pratama", "202410370110266");
+                Mahasiswa mahasiswa = new Mahasiswa("AlwPratama", "202410370110266");
                 System.out.print("Masukkan Nama: ");
                 String inputNama = input.nextLine();
                 System.out.print("Masukkan NIM: ");
